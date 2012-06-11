@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DemoIgorActivity!</string>
+    <string name="app_name">WatchStock</string>
+    <string name="button1">Portfolio</string>
+    
+    <string name="button2">Charts</string>
+    <string name="button3">Watchlist</string><string name="nextactitivty">This is the next activity</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="charts">Charts</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="info">Info</string>
+    <string name="suche">Suche:</string>
+    <string-array name="no_list_data"></string-array>
+    <string name="infoString">Hier stehen Informationen zur App und E-Mail Adresse usw.</string>
+
+</resources>

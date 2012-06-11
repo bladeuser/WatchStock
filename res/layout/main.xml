@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:columnCount="2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dip" >
+
+    <ImageView
+        android:id="@+id/imageViewPortfolio"
+        android:contentDescription="@string/portfolio"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="bottom"
+        android:layout_row="0"
+        android:src="@drawable/portfolio" />
+
+    <ImageView
+        android:id="@+id/imageViewSuche"
+        android:contentDescription="@string/suche"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="1"
+        android:src="@drawable/suche" />
+
+    <ImageView
+        android:id="@+id/imageViewWatchlist"
+        android:contentDescription="@string/watchlist"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="2"
+        android:src="@drawable/watchlist" />
+
+    <ImageView
+        android:id="@+id/imageViewInfo"
+        android:contentDescription="@string/info"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_row="3"
+        android:src="@drawable/info" />
+
+    <Space
+        android:layout_width="21dp"
+        android:layout_height="1dp"
+        android:layout_column="0"
+        android:layout_row="0" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="175dp"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+</GridLayout>

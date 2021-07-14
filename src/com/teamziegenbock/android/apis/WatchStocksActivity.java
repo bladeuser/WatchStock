@@ -22,8 +22,7 @@ public class WatchStocksActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				Intent myIntent = new Intent(v.getContext(),
-						Portfolio_Actitivty.class);
+				Intent myIntent = new Intent(v.getContext(), Portfolio_Actitivty.class);
 				v.getContext().startActivity(myIntent);
 			}
 		});
@@ -35,13 +34,12 @@ public class WatchStocksActivity extends Activity {
 			public void onClick(View v) {
 				// Toast.makeText(getApplicationContext(),"igor",
 				// Toast.LENGTH_SHORT).show();
-				Intent myIntentSearch = new Intent(v.getContext(),
-						Search_Actitivty.class);
+				Intent myIntentSearch = new Intent(v.getContext(), Search_Actitivty.class);
 				v.getContext().startActivity(myIntentSearch);
 
 			}
 		});
-		
+
 		ImageView info = (ImageView) findViewById(R.id.imageViewInfo);
 		info.setOnClickListener(new OnClickListener() {
 
@@ -49,8 +47,7 @@ public class WatchStocksActivity extends Activity {
 			public void onClick(View v) {
 				// Toast.makeText(getApplicationContext(),"igor",
 				// Toast.LENGTH_SHORT).show();
-				Intent myIntentInfo = new Intent(v.getContext(),
-						Info_Actitivty.class);
+				Intent myIntentInfo = new Intent(v.getContext(), Info_Actitivty.class);
 				v.getContext().startActivity(myIntentInfo);
 
 			}
